@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arooj Fatima - AI Developer & Graphic Designer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            opacity: 0.95;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9em;
+            border: 2px solid white;
+        }
+
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .project-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+        }
+
+        .project-header h3 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .tech-stack {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .project-body {
+            padding: 20px;
+        }
+
+        .project-body p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: opacity 0.3s;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .section-title {
+            text-align: center;
+            color: white;
+            font-size: 2.5em;
+            margin: 50px 0 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .skill-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .skill-card p {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 40px;
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>👋 Arooj Fatima</h1>
+            <p>AI Developer | Graphic Designer | Google AI Certified</p>
+            <div>
+                <span class="badge">🤖 AI & Machine Learning</span>
+                <span class="badge">🎨 Design</span>
+                <span class="badge">💻 Full Stack</span>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Aroojfatima-Dev" target="_blank">🔗 GitHub</a>
+                <a href="https://linkedin.com/in/arooj-fatima" target="_blank">💼 LinkedIn</a>
+            </div>
+        </header>
+
+        <h2 class="section-title">✨ Featured Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>🤖 Restaurant Chatbot</h3>
+                    <div class="tech-stack">Python • Flask • NLP</div>
+                </div>
+                <div class="project-body">
+                    <p>AI-powered chatbot that handles menu queries, reservations, delivery info, and FAQs using intelligent intent matching.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Aroojfatima-Dev/restaurant-chatbot" class="btn">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>💬 Business Chatbot Demo</h3>
+                    <div class="tech-stack">HTML • CSS • JavaScript</div>
+                </div>
+                <div class="project-body">
+                    <p>Interactive AI chatbot demo UI built with modern web technologies. Perfect for client presentations and business demonstrations.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Aroojfatima-Dev/business-chatbot-demo" class="btn">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>🎨 Graphic Design Portfolio</h3>
+                    <div class="tech-stack">Design • AI Tools • Branding</div>
+                </div>
+                <div class="project-body">
+                    <p>Collection of business cards, logos, and social media designs created using AI-assisted tools and prompt engineering.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Aroojfatima-Dev/graphic-design-portfolio" class="btn">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">🎯 Skills & Expertise</h2>
+        <div class="skills">
+            <div class="skill-card">
+                <h4>AI & Machine Learning</h4>
+                <p>NLP, Intent Matching, Chatbot Development, Python, TensorFlow</p>
+            </div>
+            <div class="skill-card">
+                <h4>Web Development</h4>
+                <p>HTML, CSS, JavaScript, Flask, Responsive Design</p>
+            </div>
+            <div class="skill-card">
+                <h4>Graphic Design</h4>
+                <p>Logo Design, Branding, UI/UX, AI-Assisted Design</p>
+            </div>
+            <div class="skill-card">
+                <h4>Certifications</h4>
+                <p>Google AI Certified, Full Stack Development</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="https://github.com/Aroojfatima-Dev" class="cta-button">Explore More on GitHub</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Arooj Fatima. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/Aroojfatima-Dev">GitHub</a> •
+                <a href="https://linkedin.com/in/arooj-fatima">LinkedIn</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
