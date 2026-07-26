@@ -4,7 +4,7 @@
 
 ---
 
-## About Me
+## About Me 
 
 I'm a first-year **BS Computer Science** student at University of South Asia, Lahore — and a freelance **AI Chatbot Developer** and **Graphic Designer**.
 
