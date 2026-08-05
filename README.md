@@ -62,12 +62,6 @@ I build custom AI-powered solutions that help businesses automate customer suppo
 
 ---
 
-### Entrepreneurship Project
-> University project covering startup fundamentals, MVP development, value proposition, and business model canvas.
-- **Course:** Entrepreneurship — University of South Asia
-
----
-
 ### [Graphic Design Portfolio](https://github.com/Aroojfatima-Dev/graphic-design-portfolio)
 > A collection of social media posts, branding visuals, and marketing graphics created using AI-assisted design and prompt engineering.
 - **Tools:** Photoshop, Figma, Canva, AI image generation
