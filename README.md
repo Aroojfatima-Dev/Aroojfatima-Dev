@@ -1,4 +1,4 @@
-# Hi there, I'm Arooj Fatima
+# Hi there, I'm Inara Fatima
 
 ### AI Developer | Graphic Designer | CS Student | Lahore, Pakistan
 
